@@ -15,7 +15,7 @@ class InputForm extends Component {
                   id="name"
                   placeholder="Enter name"
                   onChange={this.props.change}
-                />
+                  value={this.props.currentPlayer}/>
               </div>
               <button type="submit" className="btn btn-primary" onClick={this.props.addPlayer}>
                 Submit
